@@ -1,0 +1,5 @@
+nltk==3.9.4
+spacy==3.8.16
+streamlit==1.59.2
+reportlab==5.0.1
+faster-whisper==1.2.1

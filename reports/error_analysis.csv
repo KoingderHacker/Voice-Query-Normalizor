@@ -1,0 +1,8 @@
+method,error_type,word_a,word_b,shared_stem,basis,manual_relation,manually_verified_error,distinct_stems
+porter,over-stemming_candidate,universal,university,univers,manual,unrelated,True,
+porter,under-stemming_candidate,goose,geese,,manual,related_irregular_forms,False,goos|gees
+porter,under-stemming_candidate,mouse,mice,,manual,related_irregular_forms,False,mous|mice
+lancaster,over-stemming_candidate,universal,university,univers,manual,unrelated,True,
+lancaster,over-stemming_candidate,time,timer,tim,automatic_collision_candidate,unreviewed,False,
+lancaster,under-stemming_candidate,goose,geese,,manual,related_irregular_forms,False,goos|gees
+lancaster,under-stemming_candidate,mouse,mice,,manual,related_irregular_forms,False,mous|mic

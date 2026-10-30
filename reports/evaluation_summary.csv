@@ -1,0 +1,16 @@
+metric,value,interpretation
+total_input_transcripts,30,Controlled evaluation dataset; not representative of all assistants.
+tokens_before_cleaning,152,Regex-tokenized after Unicode/contraction/noise normalization and before filler/stop-word cleanup.
+tokens_after_cleaning,120,Total tokens in the final cleaned transcripts.
+token_reduction_percent,21.052632,100 * (before - after) / before.
+filler_words_removed,6,Configured filler words/phrases removed.
+stop_words_removed,24,Configured general/domain stop words removed.
+noise_tokens_removed,1,Recognized bracketed ASR annotation tokens removed.
+protected_keywords_preserved,37,Occurrences of protected command/negation tokens retained after cleaning.
+preprocessing_execution_time_seconds,0.002669500,Sum of measured preprocessing stage durations across input rows; excludes reports and morphology.
+average_preprocessing_execution_time_seconds,0.000088983,Total measured preprocessing time divided by transcript count.
+regex_tokenizer_execution_time_seconds,0.000328800,Measured tokenization time across cleaned dataset rows.
+nltk_tokenizer_execution_time_seconds,0.003510600,NLTK word_tokenize with preserve_line=True; first-call import/init cost is included.
+tokenizer_outputs_equivalent,False,Whether token sequences matched on every cleaned controlled example.
+over_stemming_candidates,3,Automatic same-stem collisions; manually verified unrelated pairs are separately flagged.
+under_stemming_candidates,4,"Curated related irregular forms left with distinct stems; candidates, not an accuracy score."

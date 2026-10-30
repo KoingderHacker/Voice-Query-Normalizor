@@ -1,0 +1,31 @@
+id,transcript,cleaned_transcript,tokens_before_cleaning,tokens_after_cleaning,fillers_removed,stop_words_removed,noise_tokens_removed,repeated_tokens_removed,protected_keywords_preserved,preprocessing_time_seconds,regex_tokenizer_time_seconds,nltk_tokenizer_time_seconds,tokenizer_outputs_equivalent
+01,Uh PLEASE turn OFF the living room light!!!,turn off living room light,8,5,uh,please the,,,turn off,0.000116500,0.000013400,0.000470400,True
+02,uh can you play the next song,can you play next song,7,5,uh,the,,,play next,0.000076900,0.000012900,0.000074800,True
+03,set an alarm for tomorrow at seven,set alarm for tomorrow at seven,7,6,,an,,,set,0.000058100,0.000010900,0.000060100,True
+04,CALL mom,call mom,2,2,,,,,call,0.000029100,0.000006300,0.000039700,True
+05,please increase the temperature to twenty two degrees,increase temperature to twenty two degrees,8,6,,please the,,,increase,0.000057300,0.000010300,0.000062900,True
+06,open the garage door,open garage door,4,3,,the,,,open,0.000187400,0.000014000,0.000063500,True
+07,don't turn off the fan,do not turn off fan,6,5,,the,,,not turn off,0.000059700,0.000009600,0.000054100,True
+08,send a message to John,send message to john,5,4,,a,,,send,0.000042700,0.000007800,0.000051200,True
+09,show me the weather tomorrow,show me weather tomorrow,5,4,,the,,,show,0.000067700,0.000008200,0.001097800,True
+10,cancel the previous command,cancel previous command,4,3,,the,,,cancel previous,0.000061500,0.000007900,0.000058300,True
+11,PLAY play the same song,play play same song,5,4,,the,,,play play,0.000046300,0.000007100,0.000048300,True
+12,set alarm for room 204 at 7:30,set alarm for room 204 at 7:30,7,7,,,,,set,0.000062000,0.000010300,0.000056900,True
+13,[noise] search for weather!!!,search for weather,3,3,,,noise,,search,0.000056400,0.000007800,0.000052500,True
+14,Um um uhhh pause the music,pause music,6,2,um um uhhh,the,,,pause,0.000051500,0.000006200,0.000044700,True
+15,please please CLOSE the garage door,close garage door,6,3,,please the,,please,close,0.000057500,0.000007700,0.000050100,True
+16,turn on the kitchen light,turn on kitchen light,5,4,,the,,,turn on,0.000047100,0.000008500,0.000053800,True
+17,disable the alarm not the timer,disable alarm not timer,6,4,,the the,,,disable not,0.000054600,0.000009500,0.000058000,True
+18,call room 204 now,call room 204 now,4,4,,,,,call,0.000044300,0.000009500,0.000056000,True
+19,hmm send send a message to Alex,send send message to alex,7,5,hmm,a,,,send send,0.000063200,0.000011000,0.000061800,True
+20,search for song number 5,search for song number 5,5,5,,,,,search,0.000050000,0.000010100,0.000059600,True
+21,goose and geese,goose and geese,3,3,,,,,,0.000036300,0.000009400,0.000052200,True
+22,mouse mouse mice,mouse mice,3,2,,,,mouse,,0.000040400,0.000007900,0.000045400,True
+23,University or UNIVERSAL,university or universal,3,3,,,,,,0.000038900,0.000007300,0.000054500,True
+24,do you know the time?,do you know time,5,4,,the,,,,0.000273400,0.000067200,0.000056000,True
+25,stop stop the music,stop stop music,4,3,,the,,,stop stop,0.000042800,0.000006700,0.000040800,True
+26,play play the song,play play song,4,3,,the,,,play play,0.000039500,0.000006100,0.000038500,True
+27,set temperature to 22.5 degrees,set temperature to 22.5 degrees,5,5,,,,,set,0.000041000,0.000008300,0.000460400,True
+28,set an alarm for 7:30,set alarm for 7:30,5,4,,an,,,set,0.000052700,0.000007900,0.000061200,True
+29,set brightness to 50%,set brightness to 50%,4,4,,,,,set,0.000035300,0.000007400,0.000047300,False
+30,open the café door in München,open café door in münchen,6,5,,the,,,open,0.000779400,0.000011600,0.000079800,True

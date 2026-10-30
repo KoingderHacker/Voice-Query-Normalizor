@@ -1,0 +1,5 @@
+method,family,available,error,original_vocabulary_size,resulting_vocabulary_size,vocabulary_reduction,vocabulary_reduction_percent,vocabulary_retention_percent,unique_transformations,execution_time_seconds,semantic_preservation_observation
+porter,stemming,True,,71,70,1,1.408451,98.591549,16,0.002507900,Stem output may not be a valid word or preserve lexical meaning.
+lancaster,stemming,True,,71,69,2,2.816901,97.183099,27,0.002112600,Stem output may not be a valid word or preserve lexical meaning.
+wordnet,lemmatization,True,,71,70,1,1.408451,98.591549,3,0.009674300,Morphological output only; no semantic accuracy score is claimed.
+spacy,lemmatization,True,,71,71,0,0.000000,100.000000,2,0.054230100,Morphological output only; no semantic accuracy score is claimed.
